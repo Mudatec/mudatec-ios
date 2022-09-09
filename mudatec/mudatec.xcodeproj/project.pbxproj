@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43C137328CBB3D5001E92DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C137228CBB3D5001E92DB /* AppDelegate.swift */; };
+		B43C137528CBB3D5001E92DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C137428CBB3D5001E92DB /* SceneDelegate.swift */; };
+		B43C137728CBB3D5001E92DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C137628CBB3D5001E92DB /* ViewController.swift */; };
+		B43C137A28CBB3D5001E92DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43C137828CBB3D5001E92DB /* Main.storyboard */; };
+		B43C137C28CBB3D6001E92DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43C137B28CBB3D6001E92DB /* Assets.xcassets */; };
+		B43C137F28CBB3D6001E92DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43C137D28CBB3D6001E92DB /* LaunchScreen.storyboard */; };
+		B43C138A28CBB3D6001E92DB /* mudatecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C138928CBB3D6001E92DB /* mudatecTests.swift */; };
+		B43C139428CBB3D6001E92DB /* mudatecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C139328CBB3D6001E92DB /* mudatecUITests.swift */; };
+		B43C139628CBB3D6001E92DB /* mudatecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C139528CBB3D6001E92DB /* mudatecUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43C138628CBB3D6001E92DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C136728CBB3D5001E92DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43C136E28CBB3D5001E92DB;
+			remoteInfo = mudatec;
+		};
+		B43C139028CBB3D6001E92DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43C136728CBB3D5001E92DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43C136E28CBB3D5001E92DB;
+			remoteInfo = mudatec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43C136F28CBB3D5001E92DB /* mudatec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mudatec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C137228CBB3D5001E92DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43C137428CBB3D5001E92DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B43C137628CBB3D5001E92DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43C137928CBB3D5001E92DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43C137B28CBB3D6001E92DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43C137E28CBB3D6001E92DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43C138028CBB3D6001E92DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43C138528CBB3D6001E92DB /* mudatecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mudatecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C138928CBB3D6001E92DB /* mudatecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mudatecTests.swift; sourceTree = "<group>"; };
+		B43C138F28CBB3D6001E92DB /* mudatecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mudatecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43C139328CBB3D6001E92DB /* mudatecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mudatecUITests.swift; sourceTree = "<group>"; };
+		B43C139528CBB3D6001E92DB /* mudatecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mudatecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43C136C28CBB3D5001E92DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138228CBB3D6001E92DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138C28CBB3D6001E92DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43C136628CBB3D5001E92DB = {
+			isa = PBXGroup;
+			children = (
+				B43C137128CBB3D5001E92DB /* mudatec */,
+				B43C138828CBB3D6001E92DB /* mudatecTests */,
+				B43C139228CBB3D6001E92DB /* mudatecUITests */,
+				B43C137028CBB3D5001E92DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43C137028CBB3D5001E92DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43C136F28CBB3D5001E92DB /* mudatec.app */,
+				B43C138528CBB3D6001E92DB /* mudatecTests.xctest */,
+				B43C138F28CBB3D6001E92DB /* mudatecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43C137128CBB3D5001E92DB /* mudatec */ = {
+			isa = PBXGroup;
+			children = (
+				B43C13A628CBB44B001E92DB /* sources */,
+				B43C137228CBB3D5001E92DB /* AppDelegate.swift */,
+				B43C137428CBB3D5001E92DB /* SceneDelegate.swift */,
+				B43C137628CBB3D5001E92DB /* ViewController.swift */,
+				B43C137828CBB3D5001E92DB /* Main.storyboard */,
+				B43C137D28CBB3D6001E92DB /* LaunchScreen.storyboard */,
+				B43C138028CBB3D6001E92DB /* Info.plist */,
+			);
+			path = mudatec;
+			sourceTree = "<group>";
+		};
+		B43C138828CBB3D6001E92DB /* mudatecTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43C138928CBB3D6001E92DB /* mudatecTests.swift */,
+			);
+			path = mudatecTests;
+			sourceTree = "<group>";
+		};
+		B43C139228CBB3D6001E92DB /* mudatecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B43C139328CBB3D6001E92DB /* mudatecUITests.swift */,
+				B43C139528CBB3D6001E92DB /* mudatecUITestsLaunchTests.swift */,
+			);
+			path = mudatecUITests;
+			sourceTree = "<group>";
+		};
+		B43C13A228CBB3F9001E92DB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B43C13A428CBB413001E92DB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B43C13A528CBB422001E92DB /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		B43C13A628CBB44B001E92DB /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				B43C137B28CBB3D6001E92DB /* Assets.xcassets */,
+				B43C13A528CBB422001E92DB /* viewmodel */,
+				B43C13A428CBB413001E92DB /* view */,
+				B43C13A228CBB3F9001E92DB /* model */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43C136E28CBB3D5001E92DB /* mudatec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C139928CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatec" */;
+			buildPhases = (
+				B43C136B28CBB3D5001E92DB /* Sources */,
+				B43C136C28CBB3D5001E92DB /* Frameworks */,
+				B43C136D28CBB3D5001E92DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mudatec;
+			productName = mudatec;
+			productReference = B43C136F28CBB3D5001E92DB /* mudatec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43C138428CBB3D6001E92DB /* mudatecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C139C28CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatecTests" */;
+			buildPhases = (
+				B43C138128CBB3D6001E92DB /* Sources */,
+				B43C138228CBB3D6001E92DB /* Frameworks */,
+				B43C138328CBB3D6001E92DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43C138728CBB3D6001E92DB /* PBXTargetDependency */,
+			);
+			name = mudatecTests;
+			productName = mudatecTests;
+			productReference = B43C138528CBB3D6001E92DB /* mudatecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B43C138E28CBB3D6001E92DB /* mudatecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C139F28CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatecUITests" */;
+			buildPhases = (
+				B43C138B28CBB3D6001E92DB /* Sources */,
+				B43C138C28CBB3D6001E92DB /* Frameworks */,
+				B43C138D28CBB3D6001E92DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43C139128CBB3D6001E92DB /* PBXTargetDependency */,
+			);
+			name = mudatecUITests;
+			productName = mudatecUITests;
+			productReference = B43C138F28CBB3D6001E92DB /* mudatecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43C136728CBB3D5001E92DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B43C136E28CBB3D5001E92DB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B43C138428CBB3D6001E92DB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B43C136E28CBB3D5001E92DB;
+					};
+					B43C138E28CBB3D6001E92DB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B43C136E28CBB3D5001E92DB;
+					};
+				};
+			};
+			buildConfigurationList = B43C136A28CBB3D5001E92DB /* Build configuration list for PBXProject "mudatec" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43C136628CBB3D5001E92DB;
+			productRefGroup = B43C137028CBB3D5001E92DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43C136E28CBB3D5001E92DB /* mudatec */,
+				B43C138428CBB3D6001E92DB /* mudatecTests */,
+				B43C138E28CBB3D6001E92DB /* mudatecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43C136D28CBB3D5001E92DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C137F28CBB3D6001E92DB /* LaunchScreen.storyboard in Resources */,
+				B43C137C28CBB3D6001E92DB /* Assets.xcassets in Resources */,
+				B43C137A28CBB3D5001E92DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138328CBB3D6001E92DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138D28CBB3D6001E92DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43C136B28CBB3D5001E92DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C137728CBB3D5001E92DB /* ViewController.swift in Sources */,
+				B43C137328CBB3D5001E92DB /* AppDelegate.swift in Sources */,
+				B43C137528CBB3D5001E92DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138128CBB3D6001E92DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C138A28CBB3D6001E92DB /* mudatecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43C138B28CBB3D6001E92DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43C139628CBB3D6001E92DB /* mudatecUITestsLaunchTests.swift in Sources */,
+				B43C139428CBB3D6001E92DB /* mudatecUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43C138728CBB3D6001E92DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43C136E28CBB3D5001E92DB /* mudatec */;
+			targetProxy = B43C138628CBB3D6001E92DB /* PBXContainerItemProxy */;
+		};
+		B43C139128CBB3D6001E92DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43C136E28CBB3D5001E92DB /* mudatec */;
+			targetProxy = B43C139028CBB3D6001E92DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43C137828CBB3D5001E92DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43C137928CBB3D5001E92DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43C137D28CBB3D6001E92DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43C137E28CBB3D6001E92DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43C139728CBB3D6001E92DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B43C139828CBB3D6001E92DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43C139A28CBB3D6001E92DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mudatec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43C139B28CBB3D6001E92DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mudatec/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B43C139D28CBB3D6001E92DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mudatec.app/mudatec";
+			};
+			name = Debug;
+		};
+		B43C139E28CBB3D6001E92DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mudatec.app/mudatec";
+			};
+			name = Release;
+		};
+		B43C13A028CBB3D6001E92DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mudatec;
+			};
+			name = Debug;
+		};
+		B43C13A128CBB3D6001E92DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QKPASA53W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msalda.mudatecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mudatec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43C136A28CBB3D5001E92DB /* Build configuration list for PBXProject "mudatec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C139728CBB3D6001E92DB /* Debug */,
+				B43C139828CBB3D6001E92DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43C139928CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C139A28CBB3D6001E92DB /* Debug */,
+				B43C139B28CBB3D6001E92DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43C139C28CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C139D28CBB3D6001E92DB /* Debug */,
+				B43C139E28CBB3D6001E92DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43C139F28CBB3D6001E92DB /* Build configuration list for PBXNativeTarget "mudatecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43C13A028CBB3D6001E92DB /* Debug */,
+				B43C13A128CBB3D6001E92DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43C136728CBB3D5001E92DB /* Project object */;
+}
